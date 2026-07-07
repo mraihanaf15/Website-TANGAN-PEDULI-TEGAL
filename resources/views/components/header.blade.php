@@ -1,18 +1,84 @@
-<header class="hero text-center">
-    <img src="{{ asset('images/fotoheader.JPG') }}" alt="Hero Image">
+<header class="hero">
 
-    <div class="hero-content container">
-        <h1 class="mb-4">
-            Ulurkan Tangan
-            <span class="text-success">Hadirkan</span> Senyuman
-        </h1>
+    <div class="hero-container">
 
-        <p class="lead mb-4">
-            Tangan Peduli Tegal
-        </p>
+        <!-- KIRI -->
+        <div class="hero-left" data-aos="fade-right">
 
-        <a href="#" class="btn btn-donasi">
-            Donasi Sekarang
-        </a>
+            <div class="hero-badge">
+                <i class="bi bi-heart-fill"></i>
+                Tangan Peduli Tegal
+            </div>
+
+            <h1 class="hero-title">
+                Ulurkan Tangan,
+                <span>Hadirkan Senyuman</span>
+            </h1>
+
+            <p class="hero-text">
+                Tangan Peduli Tegal merupakan komunitas sosial yang
+                mengajak masyarakat untuk bersama-sama menghadirkan
+                perubahan melalui aksi kemanusiaan, pendidikan,
+                pemberdayaan masyarakat, dan berbagai kegiatan sosial
+                lainnya.
+            </p>
+
+            <div class="hero-action">
+
+                <a href="{{ route('donasi') }}" class="btn-donasi">
+
+                    <i class="bi bi-heart-fill"></i>
+
+                    Donasi Sekarang
+
+                </a>
+
+                <a href="{{ route('program') }}" class="btn-program">
+
+                    Lihat Program
+
+                    <i class="bi bi-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+            <div class="hero-info">
+
+                <div class="hero-info-item">
+
+                    <h4>Komunitas Sosial</h4>
+
+                    <span>Kota & Kabupaten Tegal</span>
+
+                </div>
+
+                <div class="hero-info-item">
+
+                    <h4>Sejak 2025</h4>
+
+                    <span>Bergerak Bersama</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- KANAN -->
+
+        <div class="hero-right" data-aos="fade-left">
+
+            <div class="hero-image-box">
+
+                <img
+                    src="{{ asset('images/fotoheader.JPG') }}"
+                    alt="Hero">
+
+            </div>
+
+        </div>
+
     </div>
+
 </header>

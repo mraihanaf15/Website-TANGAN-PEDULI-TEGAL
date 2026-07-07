@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-publik>
     <x-header />
 
     <!-- HEADER -->
@@ -98,7 +98,7 @@
                         </div>
 
                         <!-- BUTTON -->
-                        <a href="https://wa.me/6281234567890"
+                        <a href="https://wa.me/6288200597040"
                            class="btn btn-donasi px-4 py-3 rounded-pill">
 
                             Konfirmasi Donasi
@@ -125,4 +125,4 @@
         </div>
     </section>
 
-</x-app-layout>
+</x-publik>

@@ -1,0 +1,53 @@
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+.hero-title{
+
+font-size:2.7rem;
+
+}
+
+.hero-image img{
+
+height:400px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero-section{
+
+padding:4rem 0;
+
+}
+
+.hero-title{
+
+font-size:2rem;
+
+}
+
+.hero-text{
+
+font-size:1rem;
+
+}
+
+.hero-image img{
+
+height:300px;
+
+}
+
+section{
+
+padding:4rem 0;
+
+}
+
+}

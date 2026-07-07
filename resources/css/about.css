@@ -1,0 +1,861 @@
+/* =====================================
+ABOUT HERO
+===================================== */
+
+.about-hero{
+
+    padding:110px 0;
+
+    background:linear-gradient(
+        135deg,
+        #f8fcf8 0%,
+        #ffffff 100%
+    );
+
+}
+
+.about-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    background:#e9f5eb;
+
+    color:#355f2e;
+
+    padding:10px 22px;
+
+    border-radius:50px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.about-title{
+
+    font-size:58px;
+
+    font-weight:800;
+
+    line-height:1.15;
+
+    margin-top:28px;
+
+    color:#1f2937;
+
+}
+
+.about-title span{
+
+    color:#355f2e;
+
+}
+
+.about-description{
+
+    margin-top:30px;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#6b7280;
+
+}
+
+.about-button{
+
+    margin-top:40px;
+
+    display:flex;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+.about-image{
+
+    overflow:hidden;
+
+    border-radius:32px;
+
+    box-shadow:0 30px 70px rgba(0,0,0,.12);
+
+}
+
+.about-image img{
+
+    width:100%;
+
+    height:560px;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.about-image:hover img{
+
+    transform:scale(1.05);
+
+}
+/* =====================================
+SIAPA KAMI
+===================================== */
+
+.about-company{
+
+    padding:110px 0;
+
+    background:#ffffff;
+
+}
+
+.company-image{
+
+    overflow:hidden;
+
+    border-radius:28px;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+}
+
+.company-image img{
+
+    width:100%;
+
+    height:550px;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.company-image:hover img{
+
+    transform:scale(1.05);
+
+}
+
+.section-badge{
+
+    display:inline-block;
+
+    background:#e8f5ea;
+
+    color:#355f2e;
+
+    padding:10px 22px;
+
+    border-radius:50px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+}
+
+.section-title{
+
+    font-size:48px;
+
+    font-weight:800;
+
+    color:#1f2937;
+
+    margin:22px 0;
+
+}
+
+.company-text{
+
+    color:#6b7280;
+
+    line-height:1.9;
+
+    font-size:17px;
+
+    margin-bottom:18px;
+
+}
+
+.info-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    padding:24px;
+
+    background:#fff;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.06);
+
+    transition:.3s;
+
+}
+
+.info-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.info-icon{
+
+    width:65px;
+
+    height:65px;
+
+    background:#355f2e;
+
+    color:#fff;
+
+    border-radius:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:26px;
+
+}
+
+.info-card h5{
+
+    margin:0;
+
+    font-weight:700;
+
+    color:#1f2937;
+
+}
+
+.info-card span{
+
+    color:#6b7280;
+
+}
+/* =====================================
+VISI MISI
+===================================== */
+
+.about-vision{
+
+    padding:110px 0;
+
+    background:#f8fafc;
+
+}
+
+.section-description{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#6b7280;
+
+    line-height:1.8;
+
+}
+
+.vision-card{
+
+    background:#fff;
+
+    border-radius:28px;
+
+    padding:45px;
+
+    height:100%;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.06);
+
+    transition:.35s;
+
+}
+
+.vision-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+}
+
+.vision-icon{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:22px;
+
+    background:#355f2e;
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:34px;
+
+    margin-bottom:25px;
+
+}
+
+.vision-card h3{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+    color:#1f2937;
+
+}
+
+.vision-card p{
+
+    color:#6b7280;
+
+    line-height:1.9;
+
+    margin:0;
+
+}
+
+.vision-list{
+
+    margin:0;
+
+    padding-left:20px;
+
+}
+
+.vision-list li{
+
+    margin-bottom:16px;
+
+    color:#6b7280;
+
+    line-height:1.9;
+
+}
+/* =====================================
+NILAI KAMI
+===================================== */
+
+.about-values{
+
+    padding:110px 0;
+
+    background:#ffffff;
+
+}
+
+.value-card{
+
+    background:#fff;
+
+    border-radius:26px;
+
+    padding:45px 35px;
+
+    text-align:center;
+
+    height:100%;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.06);
+
+    transition:.35s;
+
+}
+
+.value-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+}
+
+.value-icon{
+
+    width:90px;
+
+    height:90px;
+
+    margin:auto;
+
+    border-radius:24px;
+
+    background:#355f2e;
+
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:38px;
+
+    margin-bottom:30px;
+
+}
+
+.value-card h4{
+
+    font-size:26px;
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+    color:#1f2937;
+
+}
+
+.value-card p{
+
+    color:#6b7280;
+
+    line-height:1.9;
+
+    margin:0;
+
+}
+/* =====================================
+ORGANISASI
+===================================== */
+
+.about-organization{
+
+    padding:110px 0;
+
+    background:#f8fafc;
+
+}
+
+.leader-card{
+
+    background:#fff;
+
+    border-radius:28px;
+
+    padding:45px;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.06);
+
+    transition:.35s;
+
+}
+
+.leader-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+}
+
+.leader-icon{
+
+    width:100px;
+
+    height:100px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:#355f2e;
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:50px;
+
+    margin-bottom:25px;
+
+}
+
+.leader-position{
+
+    color:#355f2e;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    font-size:13px;
+
+}
+
+.leader-card h4{
+
+    margin-top:12px;
+
+    font-weight:700;
+
+    color:#1f2937;
+
+}
+/* =====================================
+DIVISION PREMIUM
+===================================== */
+
+.division-card{
+
+    background:#fff;
+
+    border-radius:26px;
+
+    padding:35px;
+
+    height:100%;
+
+    position:relative;
+
+    overflow:hidden;
+
+    border:1px solid #eef2f7;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+
+    transition:.35s;
+
+}
+
+.division-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:5px;
+
+    background:#355f2e;
+
+    transform:scaleX(0);
+
+    transition:.35s;
+
+}
+
+.division-card:hover::before{
+
+    transform:scaleX(1);
+
+}
+
+.division-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+}
+
+.division-top{
+
+    display:flex;
+
+    justify-content:flex-start;
+
+}
+
+.division-icon{
+
+    width:72px;
+
+    height:72px;
+
+    background:#eef8f1;
+
+    color:#355f2e;
+
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    transition:.35s;
+
+}
+
+.division-card:hover .division-icon{
+
+    background:#355f2e;
+
+    color:white;
+
+    transform:rotate(-8deg) scale(1.08);
+
+}
+
+.division-card h4{
+
+    margin-top:28px;
+
+    font-size:23px;
+
+    font-weight:700;
+
+    color:#1f2937;
+
+}
+
+.division-card p{
+
+    margin-top:15px;
+
+    color:#6b7280;
+
+    line-height:1.8;
+
+    min-height:95px;
+
+}
+
+.division-footer{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-top:25px;
+
+    color:#355f2e;
+
+    font-weight:600;
+
+}
+
+.division-footer i{
+
+    transition:.3s;
+
+}
+
+.division-card:hover .division-footer i{
+
+    transform:translateX(6px);
+
+}
+/* =====================================
+CTA
+===================================== */
+
+.about-cta{
+
+    padding:110px 0;
+
+    background:#ffffff;
+
+}
+
+.cta-wrapper{
+
+    background:linear-gradient(
+        135deg,
+        #355f2e 0%,
+        #2d5127 100%
+    );
+
+    border-radius:36px;
+
+    padding:70px;
+
+    overflow:hidden;
+
+    position:relative;
+
+    box-shadow:0 30px 80px rgba(53,95,46,.20);
+
+}
+
+.cta-wrapper::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:320px;
+
+    height:320px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.06);
+
+    top:-120px;
+
+    right:-100px;
+
+}
+
+.cta-wrapper::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:220px;
+
+    height:220px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.05);
+
+    bottom:-90px;
+
+    left:-80px;
+
+}
+
+.cta-badge{
+
+    display:inline-block;
+
+    background:rgba(255,255,255,.15);
+
+    color:#fff;
+
+    padding:10px 22px;
+
+    border-radius:50px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.cta-title{
+
+    color:#fff;
+
+    font-size:48px;
+
+    font-weight:800;
+
+    line-height:1.2;
+
+    margin-top:24px;
+
+}
+
+.cta-text{
+
+    color:rgba(255,255,255,.85);
+
+    margin-top:20px;
+
+    font-size:17px;
+
+    line-height:1.9;
+
+    max-width:620px;
+
+}
+
+.cta-wrapper .btn{
+
+    font-weight:700;
+
+    transition:.35s;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.12);
+
+}
+
+.cta-wrapper .btn:hover{
+
+    transform:translateY(-5px);
+
+}
+
+@media(max-width:992px){
+
+.cta-wrapper{
+
+padding:50px 35px;
+
+text-align:center;
+
+}
+
+.cta-title{
+
+font-size:36px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.cta-wrapper{
+
+padding:40px 25px;
+
+}
+
+.cta-title{
+
+font-size:30px;
+
+}
+
+.cta-text{
+
+font-size:15px;
+
+}
+
+}

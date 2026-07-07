@@ -16,6 +16,9 @@ return new class extends Migration
             $table->string('judul');
             $table->text('deskripsi');
             $table->string('gambar');
+            $table->string('status')->default('akan_datang');
+            $table->date('tanggal_pelaksanaan');
+            $table->text('foto_kegiatan')->nullable();
             $table->timestamps();
         });
     }

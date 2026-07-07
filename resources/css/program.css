@@ -1,0 +1,82 @@
+/* ==========================================
+PROGRAM HERO
+========================================== */
+
+.program-hero{
+
+    padding:110px 0 70px;
+
+    background:linear-gradient(135deg,#f8fcf8,#ffffff);
+
+}
+
+.program-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    background:#e8f5ea;
+
+    color:#355f2e;
+
+    padding:10px 22px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+}
+
+.program-title{
+
+    margin-top:30px;
+
+    font-size:58px;
+
+    font-weight:800;
+
+    color:#1f2937;
+
+}
+
+.program-title span{
+
+    color:#355f2e;
+
+}
+
+.program-description{
+
+    max-width:700px;
+
+    margin:25px auto 0;
+
+    color:#6b7280;
+
+    line-height:1.9;
+
+    font-size:17px;
+
+}
+.program-badge-card{
+
+    position:absolute;
+
+    top:20px;
+
+    left:20px;
+
+    background:#355f2e;
+
+    color:white;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-size:.85rem;
+
+    font-weight:600;
+
+}
