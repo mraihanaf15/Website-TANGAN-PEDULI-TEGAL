@@ -1,69 +1,80 @@
-<section class="program-section">
+<section class="program-section py-5">
 
     <div class="container">
 
-        <div class="row g-4">
+        <div class="row g-4 justify-content-center">
 
             @forelse($programs as $program)
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up">
 
-                <article class="program-card h-100">
+                    <article class="program-card h-100">
 
-                    <div class="program-image">
+                        <div class="program-image">
 
-                        <img
-                            src="{{ asset('storage/'.$program->gambar) }}"
-                            alt="{{ $program->judul }}">
+                            <img
+                                src="{{ asset('storage/'.$program->gambar) }}"
+                                alt="{{ $program->judul }}">
 
-                        <span class="program-badge-card">
-
-                            Terlaksana
-
-                        </span>
-
-                    </div>
-
-                    <div class="program-body">
-
-                        <div class="program-date">
-
-                            <i class="bi bi-calendar-event"></i>
-
-                            {{ \Carbon\Carbon::parse($program->tanggal_pelaksanaan)->translatedFormat('d F Y') }}
+                            <span class="program-badge-card">
+                                <i class="bi bi-check-circle-fill me-1"></i>
+                                Terlaksana
+                            </span>
 
                         </div>
 
-                        <h3>
+                        <div class="program-body d-flex flex-column h-100">
 
-                            {{ $program->judul }}
+                            <div class="program-date mb-2">
 
-                        </h3>
+                                <i class="bi bi-calendar-event me-2"></i>
 
-                        <p>
+                                {{ \Carbon\Carbon::parse($program->tanggal_pelaksanaan)->translatedFormat('d F Y') }}
 
-                            {{ Str::limit($program->deskripsi,120) }}
+                            </div>
 
-                        </p>
+                            <h3 class="program-title-card">
 
-                        <a href="{{ route('program.show',$program->id) }}"
-                            class="program-link">
+                                {{ $program->judul }}
 
-                            Lihat Dokumentasi
+                            </h3>
 
-                            <i class="bi bi-arrow-right ms-2"></i>
+                            <p class="program-text flex-grow-1">
 
-                        </a>
+                                {{ Str::limit(strip_tags($program->deskripsi),120) }}
 
-                    </div>
+                            </p>
 
-                </article>
+                            <a href="{{ route('program.show',$program->id) }}"
+                                class="program-link mt-auto">
 
-            </div>
+                                Lihat Dokumentasi
+
+                                <i class="bi bi-arrow-right ms-2"></i>
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
 
             @empty
 
-                <x-program-empty />
+                <div class="col-12 text-center py-5">
+
+                    <i class="bi bi-folder2-open display-1 text-success"></i>
+
+                    <h3 class="mt-4">
+                        Belum Ada Program
+                    </h3>
+
+                    <p class="text-muted">
+                        Program sosial akan ditampilkan di halaman ini setelah ditambahkan oleh admin.
+                    </p>
+
+                </div>
 
             @endforelse
 
