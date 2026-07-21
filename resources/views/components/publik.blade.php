@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="FXGPfKRN2qlttVKOf6dqgXcOGvLw2J_oHTaCP2579ls" />
 
     <title>{{ $title ?? 'Tangan Peduli Tegal' }}</title>
 
